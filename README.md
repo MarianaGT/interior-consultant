@@ -33,8 +33,8 @@
 
 ![Screenshot 2021-03-25 at 14 58 34](https://user-images.githubusercontent.com/64441365/112543333-38e5a500-8d7b-11eb-85b2-ba30f083dcaf.png)
 
-This website mock-up of an Interior Consultant is built with a responsive grid system that allows the rescaling of text and images to different device screen sizes.
-Some of the technicalities include the use of z-indexes to address the hierarchy of elements in the viewport; additionally, the primary and secondary colors are defined with variables to improve code maintainability.
+This website mock-up of an Interior Consultant is built with a responsive grid system that allows the rescaling of text and images to fit different device screen sizes.
+Some of the technicalities include the use of a modal for the hamburguer menu options, and z-indexes to address the hierarchy of elements in the viewport; additionally, the primary and secondary colors are defined with variables to improve code maintainability.
 
 
 ### Built With
