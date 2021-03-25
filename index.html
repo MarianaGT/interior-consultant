@@ -13,12 +13,12 @@
   <nav>
     <span class="logo">This interior</span>
     <div class="navlinks">
-      <span class="navlink navlink-active">Home</span>
+      <span class="navlink">Home</span>
       <span class="navlink">Collection</span>
       <span class="navlink">About</span>
       <span class="navlink">Contact</span>
     </div>
-    <span class="material-icons md-48 menu">menu</span>
+    <span id="menuBtn" class="material-icons md-48 menu">menu</span>
   </nav>
   <main>
     <div class="main-content">
@@ -43,7 +43,15 @@
       </section>
     </div>
   </main>
-
+  <div id="menuModal" class="modal">
+    <span class="material-icons md-48 close">close</span>
+    <div class="modal-content">
+      <span class="navlink">Home</span><br>
+      <span class="navlink">Collection</span><br>
+      <span class="navlink">About</span><br>
+      <span class="navlink">Contact</span>
+    </div>
+  </div>
   <footer>
     <span>created by MarianaGT - devChallenges.io</span>
   </footer>
