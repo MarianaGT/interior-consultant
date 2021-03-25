@@ -2,10 +2,12 @@ body {
   background-color: black;
   color: white;
   font-family: Montserrat, sans-serif;
+  line-height: 1.5em;
 }
 
 h1 {
   font-family: Lora, sans-serif;
+  font-size: 2.3em;
 }
 
 nav {
@@ -26,6 +28,7 @@ button {
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-size: 1em;
+  margin: 2em 0;
 }
 
 .navlinks {
@@ -43,7 +46,16 @@ button {
   padding: 1em;
 }
 
-@media only screen and (min-width: 992px) {
+.main-content img {
+  width: 24px;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
   nav img {
     display: none;
   }
@@ -53,7 +65,7 @@ button {
   }
 
   .navlink {
-    margin: 0 2em;
+    margin: 0 1.5em;
   }
 
   .navlink-active {
@@ -62,12 +74,42 @@ button {
     padding-bottom: 0.3em;
   }
 
+  h1 {
+    padding-top: 2em;
+    font-size: 2.3em;
+    line-height: 1em;
+  }
+
   main {
     display: inline-flex;
-    padding: 3em;
+    padding: 2em;
   }
 
   main img {
     width: 60%;
   }
+
+  .main-content {
+    margin: 0 3em 0 0;
+  }
 }
+
+@media only screen and (min-width: 992px) {
+  .main-content {
+    margin: 0 5em 0 0;
+  }
+
+  .main-content p {
+    font-size: 1.3em;
+  }
+
+  .navlink {
+    margin: 0 2em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+}
+
