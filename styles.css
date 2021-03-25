@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-family: Lora, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+main img {
+  width: 100%;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.navlinks {
+  display: none;
+}
+
+.logo {
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 1em;
+}
+
+.main-content {
+  padding: 1em;
+}
+
+@media only screen and (min-width: 992px) {
+  nav img {
+    display: none;
+  }
+
+  .navlinks {
+    display: inline;
+  }
+
+  main {
+    display: inline-flex;
+    padding: 3em;
+  }
+
+  main img {
+    width: 60%;
+  }
+}
