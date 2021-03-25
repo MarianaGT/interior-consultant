@@ -24,7 +24,6 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
-- [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -34,7 +33,10 @@
 
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+
+Responsive grid system
+Hierarchy of elements with z-index
+Primary and secondary colors defined with variables.
 
 - Where can I see your demo?
 - What was your experience?
@@ -45,9 +47,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML
+- CSS
+- JavaScript
 
 ## Features
 
@@ -59,12 +61,10 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [Interior Consultant Challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- [Open Studio - portfolio](https://mgalan-portfolio.netlify.app/)
+- [Web Developer projects](https://github.com/MarianaGT)
+- [LinkedIn profile](https://linkedin.com/in/mariana-gt)
