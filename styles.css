@@ -52,6 +52,16 @@ button {
     display: inline;
   }
 
+  .navlink {
+    margin: 0 2em;
+  }
+
+  .navlink-active {
+    font-weight: 700;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.3em;
+  }
+
   main {
     display: inline-flex;
     padding: 3em;
