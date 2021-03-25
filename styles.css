@@ -23,6 +23,8 @@ nav {
 
 main img {
   width: 100%;
+  position: relative;
+  z-index: -1;
 }
 
 button {
@@ -58,15 +60,11 @@ footer {
   padding: 1em;
 }
 
-.main-content img {
-  width: 24px;
-}
-
 .designer-box {
   display: top;
   margin: -5em 0 0 3em;
   width: 20em;
-  height: 8em;
+  height: 7.5em;
   background-color: blue;
   padding: 0.5em 2em 2em 2em;
 }
@@ -79,6 +77,7 @@ footer {
   border-radius: 50%;
   width: 3em;
   margin-right: 1.3em;
+  z-index: 1;
 }
 
 .flex-align {
@@ -111,7 +110,6 @@ footer {
   }
 
   h1 {
-    padding-top: 2em;
     font-size: 2.3em;
     line-height: 1em;
   }
